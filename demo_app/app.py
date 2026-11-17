@@ -1,6 +1,14 @@
 import os
+import sys
 import streamlit as st
 import pandas as pd
+
+# Point Python to the demo_app/ folder on both Windows and Linux Cloud
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
+os.chdir(APP_DIR)
+
 from modules.parser import extract_text_from_file, parse_medical_record
 from modules.predictor import evaluate_patient, load_disease_model
 from modules.explain import generate_shap_plot
