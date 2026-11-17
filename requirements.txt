@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy<2.3
 scikit-learn
-xgboost
 shap
 matplotlib
 pypdf
