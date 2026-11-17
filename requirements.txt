@@ -1,0 +1,13 @@
+﻿streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+matplotlib
+pypdf
+pillow
+pytesseract
+joblib
+reportlab
+openpyxl
