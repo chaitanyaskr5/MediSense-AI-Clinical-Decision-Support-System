@@ -1,6 +1,6 @@
-﻿streamlit
+streamlit
 pandas
-numpy
+numpy<2.3
 scikit-learn
 xgboost
 shap
